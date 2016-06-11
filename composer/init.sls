@@ -22,3 +22,5 @@ composer-dir:
     - name: /var/www/.composer
     - user: www-data
     - group: www-data
+    - required_in:
+      - file: composer
