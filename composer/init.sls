@@ -16,3 +16,9 @@ composer:
   - name: /usr/bin/composer
   - require:
     - cmd: install-composer
+
+composer-dir:
+  file.directory:
+    - name: /var/www/.composer
+    - user: www-data
+    - group: www-data
